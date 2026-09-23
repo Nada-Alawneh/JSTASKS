@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Ordering System</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <div class="restaurant-container">
+        <h1>Restaurant Ordering System</h1>
+
+        <!-- 1. Customer Name Input -->
+        <div class="input-group">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" class="name-input" placeholder="Enter your name">
+        </div>
+
+        <!-- 2. Order Select Menu -->
+        <div class="input-group">
+            <label for="foodOrder">Choose Order:</label>
+            <select id="foodOrder" class="order-select">
+                <option value="Burger">Burger</option>
+                <option value="Shawarma">Shawarma</option>
+                <option value="Zinger">Zinger</option>
+            </select>
+        </div>
+
+        <!-- 3. Submit Button with Events -->
+        <button id="submitBtn" onclick="displayOrder()" onmouseover="changeColor()" onmouseout="resetColor()">Submit Order</button>
+
+        <!-- 4. Output Display Area -->
+        <h3 id="result" class="result-text"></h3>
+    </div>
+
+    <script src="JSTASKS3.js"></script>
+</body>
+</html>
