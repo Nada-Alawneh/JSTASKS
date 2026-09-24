@@ -1,10 +1,13 @@
-// function 1:
-function reverse (){
-    let number= prompt("plz,insert 5 digit numbers");
-    for(let i = number.length - 1; i >= 0; i--){
-    console.log(number[i]);
+function reverse() {
+    let number = prompt("plz, insert 5 digit numbers");
+    let reversed = "";
+    for (let i = number.length - 1; i >= 0; i--) {
+        reversed += number[i];   
     }
+    console.log(reversed);       
 }reverse();
+
+
 
 // function 2:
 for(let j = 0; j<= 15 ; j++ ){
