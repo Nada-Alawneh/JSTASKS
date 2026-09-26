@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Order System</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200');
+            background-size: cover;
+        }
+
+        .form-box {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 320px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .error-msg {
+            color: red;
+            font-size: 11px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        #button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        #button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-box">
+        <h3 style="margin-top: 0; text-align: center;">Restaurant Order</h3>
+        <form>
+            <label>Username</label><br>
+            <input type="text" id="Username" placeholder="Enter username"><br>
+            <span id="usernameError" class="error-msg"></span>
+
+            <label>Password</label><br>
+            <input type="password" id="Password" placeholder="Enter password"><br>
+            <span id="passwordError" class="error-msg"></span>
+
+            <label>Phone Number</label><br>
+            <input type="text" id="PhoneNumber" placeholder="07XXXXXXXX"><br>
+            <span id="phoneError" class="error-msg"></span>
+
+            <label>Order</label><br>
+            <input type="text" id="Order" placeholder="Enter order"><br>
+        </form>
+
+        <button id="button" onclick="submitForm()">Submit</button>
+    </div>
+
+    <script src="JSTASKS5.js"></script> 
+</body>
+</html>
