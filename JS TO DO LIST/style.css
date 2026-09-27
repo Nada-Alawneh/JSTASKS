@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+
+#inputText {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+#addButton {
+    padding: 10px 15px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#addButton:hover {
+    background: #357ab8;
+}
+
+
+#listTask {
+    margin-top: 20px;
+    width: 300px;
+}
+
+
+#listTask p {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.5s forwards;
+}
+
+#listTask button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#listTask button:hover {
+    background: #c0392b;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
