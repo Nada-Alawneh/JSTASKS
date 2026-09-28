@@ -1,0 +1,6 @@
+[
+{"mealName" : "Burger", "Price" : 2.5 , "Availability" : "True"},
+{"mealName" : "Shawerma", "Price" : 3.5 , "Availability" : "False"},
+{"mealName" : "Pizza", "Price" : 4.5 , "Availability" : "True"},
+{"mealName" : "BBQ", "Price" : 5.5 , "Availability" : "False"}
+]

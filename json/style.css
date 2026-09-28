@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* خلفية فاتحة */
+  margin: 20px;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#Info {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#Info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+#Info strong {
+  color: #0077cc; /* لون مميز للعناوين */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
